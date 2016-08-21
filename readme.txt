@@ -1,0 +1,27 @@
+Using Guide
+
+1. directory description:
+	
+	\dataset: include all the types of biobirck files, there are several gene strings in each file.
+	
+	\testData: include some relation matrix files used in our experiment.
+	
+	\python: include one exe file ,main.exe, and other necessary files. 
+			you can combine two gene string files ,compute their edit distance and get their relation matrix.	 
+	        
+	\matlab£ºinclude two exe files, runLE and runISOMAP. 
+			they are used to deal with relation matrix by LE and ISOMAP
+
+2. relation matrix:
+	
+	if you want to compute edit distance between every two biobricks in two different files and get relation matrix. First you need put two files from '\dataset' into '\python'. Then running main.exe in cmd by command 'main'. And then you need input three necessary parameters at first of program. the third parameter is used to tell program you want add 'knn' step or not in computing process. Remember you need knn in process, if this relation matrix is for isomap!
+
+3. reduction dimsion by LE or ISOMAP:						 
+	
+	After get relation matrix you want, please put it in '\matlab'. Before running ang program you need review how many strings in two gene string files, remember two numbers as num1 and num2. Now you can run program in cmd with some parameters. Right commands are as follow: 'runLE(or runISOMAP) <filename> <num1> <num2>'. 
+	
+	we put test file test.xlsx for runLE in '\matlab', and it built by two string files. Both of these string files include 500 strings. So you need the command as the example: <runLE test 500 500>
+	
+		
+							
+						 

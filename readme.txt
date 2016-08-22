@@ -1,9 +1,9 @@
-# Using Guide 
+ï»¿# Using Guide 
 # 2016/08/22
 
 1. directory description:
 	
-\dataset: include all the types of biobirck files, there are several gene strings in each file.
+\dataset:  include all the types of biobirck files, there are several gene strings in each file.
 	
 \testData: include some relation matrix files used in our experiment. 
 		   *.xlsx and *_knn.xlsx files are ready for le and isomap. matching between matrixs and string files is as follow:
@@ -13,11 +13,11 @@
 		   t5*.xlsx: Primer and RBS
 		   t6*.xlsx: Protein_Domain and RBS
 	
-\python: include one exe file ,main.exe, and other necessary files. 
-	     you can combine two gene string files ,compute their edit distance and get their relation matrix.	 
+\python:   include one exe file ,main.exe, and other necessary files. 
+	       you can combine two gene string files ,compute their edit distance and get their relation matrix.	 
 	        
-\matlab£ºinclude two exe files, runLE and runISOMAP. 
-	 	 they are used to deal with relation matrix by LE and ISOMAP
+\matlab:   include two exe files, runLE and runISOMAP. 
+	 	   they are used to deal with relation matrix by LE and ISOMAP
 
 2. relation matrix:
 	

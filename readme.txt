@@ -6,7 +6,7 @@
 \dataset:   include all the types of biobirck files, there are several gene strings in each file.
 	
 \testData:  include some relation matrix files used in our experiment. 
-	  *.xlsx and *_knn.xlsx files are ready for le and isomap. matching between matrixs and string files is as follow:  
+*.xlsx and *_knn.xlsx files are ready for le and isomap. matching between matrixs and string files is as follow:  
 		t2*.xlsx: Protein_Generator and Protein_Domain
 		t3*.xlsx: Protein_Generator and RBS
 		t4*.xlsx: Primer and Protein_Domain

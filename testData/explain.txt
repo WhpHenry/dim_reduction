@@ -1,9 +1,0 @@
-*.xlsx files are ready for le
-*_knn.xlsx files are read for isomap
-
-t1*.xlsx: Protein_Generator and Primer
-t2*.xlsx: Protein_Generator and Protein_Domain
-t3*.xlsx: Protein_Generator and RBS
-t4*.xlsx: Primer and Protein_Domain
-t5*.xlsx: Primer and RBS
-t6*.xlsx: Protein_Domain and RBS

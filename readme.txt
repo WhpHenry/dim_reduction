@@ -4,8 +4,6 @@ Using Guide
 	
 	\dataset: include all the types of biobirck files, there are several gene strings in each file.
 	
-	\testData: include some relation matrix files used in our experiment.
-	
 	\python: include one exe file ,main.exe, and other necessary files. 
 			you can combine two gene string files ,compute their edit distance and get their relation matrix.	 
 	        
@@ -20,7 +18,7 @@ Using Guide
 	
 	After get relation matrix you want, please put it in '\matlab'. Before running ang program you need review how many strings in two gene string files, remember two numbers as num1 and num2. Now you can run program in cmd with some parameters. Right commands are as follow: 'runLE(or runISOMAP) <filename> <num1> <num2>'. 
 	
-	we put test file test.xlsx for runLE in '\matlab', and it built by two string files. Both of these string files include 500 strings. So you need the command as the example: <runLE test 500 500>
+	we put test files, le_test.xlsx and lsomap_test.xlsx for two exe files in '\matlab', and they were built by two same string files(Protein_Generator and Primer). Both of these string files include 500 strings. So you need the command as the example: <runLE le_test 500 500> or <runLSOMAP isomap_test 500 500>
 	
 		
 							
